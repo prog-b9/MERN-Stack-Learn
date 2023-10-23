@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-body: #f5f8fa;
+  --primary-color: #743C91;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.App {
+  background-color: var(--bg-body);
+}
+
+.style-shadow-small {
+  box-shadow: 0 0 10px rgba(31, 31, 31, 0.1)
+}
